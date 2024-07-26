@@ -7,6 +7,8 @@ header{
     height: 70PX;
     background-color: white;
     box-shadow: 0px 0px 12px black;
+    position: fixed;
+
 }
 header button{
     width: 140px;
@@ -35,7 +37,7 @@ header img{
 #imo1{
     width: 100%;
     height: 650px;
-    margin-top: 0px; 
+    margin-top: 72px; 
    
 }
 marquee{
@@ -51,7 +53,7 @@ marquee{
 
 }
 aside{
-    width:13%;
+    width:12%;
     height:400PX;
 background:white;
 float:right;
@@ -89,11 +91,51 @@ main h2{
     
 }
 main p{
-    font-size:25px;
+    font-size:15px;
     font-weight: bold;
     font-family: 'tajawa1 , sans- serif';
     color: gray;
     margin-top: 60px;
-    margin: 10px;
-
+    margin: 30px;
 }
+#d1 div {
+    width: 270px;
+    height:420px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-family: 'tajawa1 , sans- serif';
+    font-weight: bold;
+    box-shadow: 1px 1px 12px gray;
+    float: left;
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius:12px;
+}
+footer {
+    width: 100%;
+    height: 300PX;
+    background-color: black;
+    margin-top: 1500px;
+    clear: both;
+    box-shadow: 0px 0px 40px black;
+}
+footer div {
+    font-size: 23PX;
+    margin-top: 12PX;
+    font-family: 'tajawa1 , sans- serif';
+    font-weight: bold;
+    text-align: left;
+    margin-left: 85px;
+    color: #ff4b5c;
+    float: left;
+}
+footer div A{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer diV a:hover{
+    color: #ff4b5c;
+}
+
+
+
